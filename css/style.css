@@ -1,0 +1,546 @@
+/* Fonts*/
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-regular.eot');
+    src: local(''), url('../fonts/roboto-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/roboto-regular.woff2') format('woff2'), url('../fonts/roboto-regular.woff') format('woff'), url('../fonts/roboto-regular.ttf') format('truetype'), url('../fonts/roboto-regular.svg#Roboto') format('svg');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy Regular'), local('Gilroy-Regular'), url('../fonts/Gilroy-Regular.woff2') format('woff2'), url('../fonts/Gilroy-Regular.woff') format('woff'), url('../fonts/Gilroy-Regular.ttf') format('truetype');
+}
+
+
+/* General */
+
+body {
+    font-family: 'Roboto';
+}
+
+h1,
+h2 {
+    font-family: 'Gilroy';
+}
+
+img {
+    width: 100%;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.text-gray-per {
+    color: #5e5e5e;
+}
+
+.text-orange-per {
+    color: #d14020;
+}
+
+.border-md-right-orange {
+    border-right: 2px solid #d14020;
+}
+
+.fts-1 {
+    font-size: 1vw
+}
+
+.fts-1-1 {
+    font-size: 1.1vw
+}
+
+.fts-1-2 {
+    font-size: 1.2vw
+}
+
+.fts-1-3 {
+    font-size: 1.3vw
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+
+/* Banners */
+
+.bg-banner-1 {
+    background-image: url(../imgs/banner-desk.png);
+    background-position: center;
+    background-size: cover;
+    height: 36vw;
+}
+
+.bg-banner-2 {
+    background-image: url(../imgs/banner-3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 36vw;
+}
+
+.bg-banner-3 {
+    background-image: url(../imgs/caracteristicas.png);
+    background-position: center;
+    background-size: cover;
+    height: 50vw;
+}
+
+.bg-banner-4 {
+    background-image: url(../imgs/banner-8.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 40vw;
+}
+
+
+/* Perzonalizado */
+
+.banner-principal .container {
+    height: 34vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    max-width: 90%;
+    min-width: 1010px;
+}
+
+.banner-principal .container .row {
+    width: 100%;
+    margin: 0;
+}
+
+.banner-principal .container .row .div-title {
+    width: fit-content;
+}
+
+.banner-principal .container .row .div-title h1 {
+    font-size: 5vw;
+    border-bottom: 2px solid #fff;
+    line-height: 1;
+}
+
+.banner-principal .container .row .txt-preventa {
+    border-bottom: 1px solid #fff;
+    text-align: right;
+    margin-bottom: 3px;
+    padding-bottom: 1px;
+}
+
+.banner-principal .container .row .txt-preventa img {
+    width: 43px;
+    margin: 0 8px -2px 0;
+}
+
+.info-1 {
+    padding: 55px 0;
+}
+
+.info-1 img {
+    width: 10vw;
+}
+
+.info-2 .img-1-info-2,
+.info-2 .img-2-info-2 {
+    height: 22vw;
+    background-position: center;
+    background-size: cover;
+    border-right: 8px solid #FFF;
+}
+
+.info-2 .img-1-info-2 {
+    background-image: url(../imgs/banner-2.jpg);
+}
+
+.info-2 .img-2-info-2 {
+    background-image: url(../imgs/banner-1.jpg);
+}
+
+.info-2 .img-cell {
+    width: 8vw;
+}
+
+.info-2 .img-apps {
+    width: 90px;
+}
+
+.info-2 .txt-add-1 {
+    padding: 16px 16px 0;
+}
+
+.info-3 .div-caracteristicas .ico-caracteristicas {
+    max-width: 2vw;
+}
+
+.info-3 .txt-add-2 {
+    width: 17vw;
+}
+
+.info-3 .txt-add-3 {
+    font-size: 2vw;
+}
+
+.info-4 .txt-title-num {
+    font-size: 3.5vw;
+    line-height: 1;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.info-4 .txt-title-num small {
+    font-size: 35%;
+}
+
+.info-5 .div-info-game {
+    padding: 2vw 0;
+}
+
+.info-5 .div-info-game h1 {
+    font-weight: bold;
+    font-size: 3.2vw;
+}
+
+.info-5 .txt-add-4 {
+    margin: 40px 0 18px;
+}
+
+.info-5 .img-ref-game {
+    width: 22vw;
+}
+
+.info-6 .txt-info-1 {
+    width: 70%;
+    color: #4d4d4d;
+}
+
+.info-6 .txt-info-2 {
+    width: 45%;
+    color: #4d4d4d;
+    margin: auto auto 25px;
+}
+
+.info-6 .txt-info-3 {
+    width: 45%;
+    color: #4d4d4d;
+}
+
+.info-6 .div-info-4 {
+    margin-top: 7.5vw;
+}
+
+.info-7 .txt-info-1 {
+    width: 70%;
+}
+
+.imgs-ref-patineta .container {
+    max-width: 100%;
+    padding: 0;
+}
+
+.imgs-ref-patineta .bg-img-1,
+.imgs-ref-patineta .bg-img-2,
+.imgs-ref-patineta .bg-img-3,
+.imgs-ref-patineta .bg-img-4 {
+    height: 28vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.imgs-ref-patineta .bg-img-1,
+.imgs-ref-patineta .bg-img-3 {
+    border-right: 8px solid #FFF;
+}
+
+.imgs-ref-patineta .bg-img-3,
+.imgs-ref-patineta .bg-img-4 {
+    border-top: 8px solid #FFF;
+}
+
+.imgs-ref-patineta .bg-img-1 {
+    background-image: url(../imgs/banner-4.jpg);
+}
+
+.imgs-ref-patineta .bg-img-2 {
+    background-image: url(../imgs/banner-5.png);
+}
+
+.imgs-ref-patineta .bg-img-3 {
+    background-image: url(../imgs/banner-6.jpg);
+    padding: 40px;
+}
+
+.imgs-ref-patineta .bg-img-4 {
+    background-image: url(../imgs/banner-7.jpg);
+}
+
+.info-9 .txt-title {
+    font-size: 1.5vw;
+}
+
+.info-9 .txt-link {
+    background-color: #d14020;
+    border-radius: 50px;
+    padding: 5px 22px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.slider-resena .slick-prev.slick-arrow,
+.slider-resena .slick-next.slick-arrow {
+    width: auto;
+    height: auto;
+}
+
+.slider-resena .slick-prev:before,
+.slider-resena .slick-next:before {
+    font-size: 3vw;
+}
+
+.slider-resena .img-user {
+    width: 20vw;
+    border-radius: 50%;
+    margin: auto;
+    border: 2px solid #fff;
+}
+
+.slider-resena h1 {
+    text-align: center;
+    color: white;
+    margin-top: 21px;
+    font-weight: bold;
+    font-size: 3.5vw;
+}
+
+.slider-resena p {
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    border-top: 3px solid #fff;
+}
+
+
+/* Juego */
+
+table {
+    border: 2px solid #fff;
+}
+
+td.pieza {
+    background: url(../imgs/game.jpg);
+    border: 2px solid #fff;
+    transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+div.posic {
+    display: none;
+}
+
+
+/* Resposive */
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 95%;
+    }
+    .fts-1 {
+        font-size: 1.4vw
+    }
+    .fts-1-1 {
+        font-size: 1.5vw
+    }
+    .fts-1-2 {
+        font-size: 1.6vw
+    }
+    .fts-1-3 {
+        font-size: 1.7vw
+    }
+    .banner-principal .container {
+        min-width: 100%;
+    }
+    .bg-banner-2 {
+        height: 45vw;
+    }
+    .info-5 .img-ref-game {
+        width: 28vw;
+    }
+    .bg-banner-3 {
+        height: 70vw;
+    }
+    .info-6 .txt-info-1 {
+        width: 90%;
+    }
+    .info-6 .div-info-4 {
+        margin-top: 14vw;
+    }
+    .info-4 .txt-title-num {
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 768px) {
+    td.pieza {
+        background: url(../imgs/game-mob.jpg);
+    }
+    .border-none {
+        border: none !important
+    }
+    .bg-banner-1 {
+        background-image: url(../imgs/banner-mob.png);
+        height: 107vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-principal .container {
+        height: 107vw;
+        align-items: baseline;
+    }
+    .banner-principal .container .row {
+        height: 116vw;
+    }
+    .banner-principal .container .row .div-title h1 {
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    .banner-principal .container .row .txt-mob {
+        font-size: 14px;
+        margin-top: 4px;
+    }
+    .bg-banner-2 {
+        background-image: url(../imgs/banner-3-mob.jpg);
+        height: 72vw;
+    }
+    .bg-banner-3 {
+        background-image: url(../imgs/caracteristicas-mob.png);
+        height: 785px;
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+    .bg-banner-4 {
+        padding: 0 9px;
+        height: 410px;
+    }
+    .fts-1 {
+        font-size: 13px
+    }
+    .fts-1-1 {
+        font-size: 14px
+    }
+    .fts-1-2 {
+        font-size: 15px
+    }
+    .fts-1-3 {
+        font-size: 16px
+    }
+    .ico-caracteristicas {
+        max-width: 5vw;
+    }
+    .info-1 img {
+        width: 100%;
+    }
+    .info-2 .img-1-info-2 {
+        height: 75vw;
+        border-right: none;
+        border-bottom: 8px solid #FFF;
+    }
+    .info-2 .img-2-info-2 {
+        height: 60vw;
+        border-right: none;
+    }
+    .info-2 .img-cell {
+        width: 110px;
+        margin-top: 38px;
+    }
+    .info-2 .txt-add-1 {
+        text-align: center;
+        padding: 10px 16px 0;
+        margin-bottom: -22px !important;
+    }
+    .info-3 .div-caracteristicas .ico-caracteristicas {
+        max-width: 23px;
+    }
+    .info-3 .txt-add-2 {
+        width: 50%;
+        font-size: 13px;
+        margin-left: 37px !important;
+    }
+    .info-4 .txt-title-num {
+        font-size: 36px;
+    }
+    .info-5 .div-info-game h1 {
+        font-size: 40px;
+    }
+    .info-5 .txt-add-4 {
+        margin: 18px 0 18px;
+    }
+    .info-5 .img-ref-game {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .info-6 .txt-info-1 {
+        width: 100%;
+    }
+    .info-6 .txt-info-2 {
+        width: 60%;
+        margin: 26px 17px 25px auto;
+    }
+    .info-6 .txt-info-3 {
+        width: 60%;
+        margin: auto 17px 25px auto;
+    }
+    .info-6 .div-info-4 {
+        margin-top: 120px;
+    }
+    .info-7 .txt-info-1 {
+        width: 100%;
+    }
+    .imgs-ref-patineta .bg-img-1 {
+        height: 60vw;
+        border: none;
+        border-bottom: 5px solid #fff;
+    }
+    .imgs-ref-patineta .bg-img-2 {
+        height: 87vw;
+    }
+    .imgs-ref-patineta .bg-img-3 {
+        height: 70vw;
+        border: none;
+        border-top: 5px solid #fff;
+        padding: 15px;
+    }
+    .imgs-ref-patineta .bg-img-4 {
+        height: 67vw;
+    }
+    .info-9 .txt-title {
+        font-size: 19px;
+    }
+    .slider-resena .img-user {
+        width: 150px;
+    }
+    .slider-resena h1 {
+        font-size: 30px;
+    }
+    .slider-resena p {
+        width: 90%;
+    }
+    .slider-resena .slick-prev:before,
+    .slider-resena .slick-next:before {
+        font-size: 30px;
+    }
+}
